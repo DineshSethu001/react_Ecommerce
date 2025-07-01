@@ -1,0 +1,10 @@
+export {default as Header} from './Header';
+export {default as Hero} from './Hero';
+export {default as Category} from './Category';
+export {default as Types } from './Types';
+export {default as Services} from './Services';
+export {default as Productsgrid} from './Productsgrid';
+export {default as Banner} from './Banner.jsx';
+export {default as Reviews} from './Reviews.jsx';
+export {default as Insta } from './Insta.jsx';
+export {default as Footer} from './Footer';

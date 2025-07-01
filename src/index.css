@@ -1,0 +1,19 @@
+/* styles.css */
+@import "tailwindcss";
+
+
+  :root {
+    --themeyellow: #f5e60d;  /* Note the correct syntax with a semicolon */
+    --themepurple: #502ec3;     /* Note the correct syntax with a semicolon */
+    
+  }
+
+  #icons{
+    display: none;
+  }
+
+  #product-box-hover{
+    #icons{
+      display: flex !important;
+    }
+  }
