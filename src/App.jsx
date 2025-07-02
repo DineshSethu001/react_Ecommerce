@@ -1,12 +1,12 @@
 import React from 'react'
-import {Header, Category, Types, Services, Banner, Reviews, Insta, Productsgrid, Footer} from './sections'
+import {Header, Hero, Category, Types, Services, Banner, Reviews, Insta, Productsgrid, Footer} from './sections'
 
 
 const App = () => {
   return (
     <>
     <Header />
-    
+      <Hero />
     <Category/>
     <Types />
     <Services />

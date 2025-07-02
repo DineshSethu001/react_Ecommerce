@@ -15,7 +15,7 @@ const Reviews = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
@@ -82,6 +82,7 @@ const Reviews = () => {
         <div className="flex justify-center items-center gap-5">
           <FaQuoteLeft className='fill-[var(--themepurple)] size-16'/>
           <div>
+          <h1 className='text-black font-semibold capitalize text-xl'>{item.name}</h1>
             <h1 className="text-gray-500 capitalize">{item.post}</h1>
           </div>
         </div>
